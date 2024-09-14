@@ -1,0 +1,18 @@
+/* */
+
+.container{
+    background-color: bisque;
+    width: 500px;
+    height: 500px;
+}
+.satu {
+    background-color: aquamarine; /* mengganti background warna*/
+    width: 100px; /* horizontal*/
+    height: 100px; /* vertikal*/
+    padding: 20px; /* mengisi ruang*/
+    border: 10px white solid; /* border*/
+    border: 2px yellow;
+    border-style: solid;
+    border-radius: 30px 0 0 0; /* memberi lengkungan*/
+    margin: 100px; /* jarak antar item*/ 
+}

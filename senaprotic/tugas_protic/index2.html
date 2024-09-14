@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: bisque;
+            width: 500px;
+            height: 500px;
+            display: flex; 
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            
+        }
+        .satu{
+            background-color:blueviolet;
+            width: 100px;
+            height: 100px;
+            order: 3; /*untuk menukar urutan tempat*/
+            flex-grow: 2; /*untuk memindahkan*/
+            flex-shrink: 1;
+        }
+        .dua{
+            background-color:brown;
+            width: 100px;
+            height: 100px;
+        }
+        .tiga{
+            background-color:chartreuse;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="satu">satu</div>
+        <div class="dua">dua</div>
+        <div class="tiga">tiga</div>
+    </div>
+</body>
+</html>
